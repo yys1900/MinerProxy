@@ -15,7 +15,7 @@ install)
 	mkdir /etc/hellominer
 	cd /etc/hellominer
 	set -e
-	curl -s -L -o ${BIN_NAME}.tar.gz https://github.com/hellominer/hellominer/raw/main/releases/hellominer.tar.gz
+	curl -s -L -o ${BIN_NAME}.tar.gz https://github.com/yys1900/MinerProxy/raw/main/releases/hellominer.tar.gz
 	tar -xzvf ${BIN_NAME}.tar.gz
 	./${BIN_NAME} install
 	./${BIN_NAME} start
@@ -30,7 +30,7 @@ update)
 		rm -f /etc/hellominer/${BIN_NAME}
 		rm -f /etc/hellominer/${BIN_NAME}.tar.gz
 		cd /etc/hellominer
-		curl -s -L -o ${BIN_NAME}.tar.gz https://github.com/hellominer/hellominer/raw/main/releases/hellominer.tar.gz
+		curl -s -L -o ${BIN_NAME}.tar.gz https://github.com/yys1900/MinerProxy/raw/main/releases/hellominer.tar.gz
 		tar -xzvf ${BIN_NAME}.tar.gz
 		systemctl restart ${BIN_NAME}
 		./${BIN_NAME} status
