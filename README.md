@@ -84,11 +84,9 @@ bash -c "$(curl -s -L https://github.com/hellominer/hellominer/raw/main/tools.sh
 
 #### 更新程序
 
-更新程序只需要复制下面命令执行即可：
+程序更新通知  QQ群：515161431
 
-`
-cd /etc/hellominer && rm -rf hellominer hellominer.tar.gz && curl -o hellominer.tar.gz -s -L https://github.com/hellominer/hellominer/raw/main/releases/hellominer.tar.gz && tar zxfv hellominer.tar.gz
-`
+
 
 更新完毕，需要程序重启，执行：`pkill hellominer && cd /etc/hellominer && ./hellominer --daemon --forever --flog null`
 
