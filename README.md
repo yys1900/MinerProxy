@@ -56,11 +56,9 @@ bash -c "$(curl -s -L https://github.com/yys1900/MinerProxy/raw/main/install.sh)
 
 #### 更新程序
 
-更新程序只需要执行：
+电报通知  Telegram交流群 [点击加入](https://t.me/yys190) 
 
-`
-bash -c "$(curl -s -L https://github.com/hellominer/hellominer/raw/main/install.sh)" @ update
-`
+
 
 #### 修改程序配置
 
